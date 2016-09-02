@@ -1,0 +1,14 @@
+{
+  "predef": [
+    "document",
+    "app",
+    "console",
+    "jquery",
+    "module",
+    "require",
+    "angular"
+  ],
+  "esversion": 6,
+  "globalstrict": true,
+  "jquery": true
+}

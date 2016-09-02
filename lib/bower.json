@@ -1,0 +1,20 @@
+{
+  "name": "lib",
+  "description": "portfolio site for KMRussell",
+  "main": "gulpfile.js",
+  "authors": [
+    "\"Complikatyed <katye.russell@gmail.com>"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/complikatyed/kmr-portfolio",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "^3.1.0"
+  }
+}
