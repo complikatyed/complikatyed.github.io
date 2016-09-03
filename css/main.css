@@ -1,0 +1,10 @@
+body {
+  background-color: steelblue;
+  overflow: hidden; }
+
+bigwhite {
+  background-color: white;
+  margin-top: 50px;
+  margin-right: 66px;
+  max-width: 800px;
+  font-size: 2em; }
