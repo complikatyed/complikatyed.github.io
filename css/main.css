@@ -1,6 +1,12 @@
+html {
+  font-family: 'Cardo', serif; }
+
 body {
   background-color: #6284CE;
   overflow: hidden; }
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Montserrat', sans-serif; }
 
 .classroom {
   padding: 0 10px; }
@@ -15,5 +21,12 @@ body {
   margin-top: 40px;
   background-color: white;
   max-width: 800px;
-  font-size: 1em;
+  font-size: 1.25em;
   padding: 40px 40px; }
+
+.banner {
+  background-color: white;
+  color: #6284CE;
+  text-align: center; }
+  .banner img {
+    max-height: 50px; }

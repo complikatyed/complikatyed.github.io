@@ -6,11 +6,21 @@
           border-radius: $radius;
 }
 
+$portfolio_blue: #6284CE;
+
+html {
+  font-family: 'Cardo', serif;
+}
 
 
 body {
-    background-color: #6284CE;
+
+    background-color: $portfolio_blue;
     overflow: hidden;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Montserrat', sans-serif;
 }
 
 .classroom {
@@ -28,6 +38,18 @@ body {
   margin-top: 40px;
   background-color: white;
   max-width: 800px;
-  font-size: 1em;
+  font-size: 1.25em;
   padding: 40px 40px;
 }
+
+.banner{
+  background-color: white;
+  color: $portfolio_blue;
+  text-align: center;
+
+  img {
+    max-height: 50px;
+  }
+}
+
+
