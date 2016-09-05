@@ -1,0 +1,26 @@
+$portfolio_blue: #6284CE;
+
+.banner img {
+  max-height: 62px;
+  width: 1440px;
+  margin-bottom: -10px;
+}
+
+.nameplate {
+  background-color: white;
+  color: $portfolio_blue;
+  text-align: center;
+  padding: 10px 0px;
+}
+
+.nameplate h1 {
+  text-shadow: 1px 1px 3px #888888;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+.nameplate h3 {
+  text-shadow: 1px 1px 3px #000000;
+  margin-top: 0px;
+  margin-bottom: 30px;
+}

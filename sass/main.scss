@@ -6,6 +6,9 @@
           border-radius: $radius;
 }
 
+@import "banner";
+@import "icons";
+
 $portfolio_blue: #6284CE;
 
 html {
@@ -43,51 +46,6 @@ h1, h2, h3, h4, h5, h6 {
   max-width: 800px;
   font-size: 1.25em;
   padding: 40px 40px;
-}
-
-.banner img {
-  max-height: 62px;
-  width: 1440px;
-  margin-bottom: -10px;
-  // box-shadow: 5px 5px 2.5px #000000;
-}
-
-.nameplate {
-  background-color: white;
-  color: $portfolio_blue;
-  text-align: center;
-  padding: 10px 0px;
-}
-
-.nameplate h1 {
-  text-shadow: 1px 1px 3px #888888;
-  margin-top: 30px;
-  margin-bottom: 20px;
-}
-
-.nameplate h3 {
-  text-shadow: 1px 1px 3px #000000;
-  margin-top: 0px;
-  margin-bottom: 30px;
-}
-
-.icons {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-
-}
-
-.icons img {
-  padding-top: 30px;
-  padding-bottom: 30px;
-  max-width: 60px;
-  margin-right: 100px;
-}
-
-.icons img:last-of-type {
-  margin-right: 0px;
 }
 
 
