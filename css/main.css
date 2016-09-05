@@ -1,6 +1,88 @@
+.banner img {
+  max-height: 62px;
+  width: 1440px;
+  margin-bottom: -10px; }
+
+.nameplate {
+  background-color: white;
+  color: #6284CE;
+  text-align: center;
+  padding: 10px 0px; }
+
+.nameplate h1 {
+  text-shadow: 1px 1px 3px #888888;
+  margin-top: 30px;
+  margin-bottom: 20px; }
+
+.nameplate h3 {
+  text-shadow: 1px 1px 3px #000000;
+  margin-top: 0px;
+  margin-bottom: 30px; }
+
+.icons {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center; }
+
+.icons img {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  max-width: 5em; }
+
+.icons a {
+  margin-right: 100px; }
+
+.icons a:last-of-type {
+  margin-right: 0px; }
+
+.icons img:last-of-type {
+  margin-right: 0px; }
+
+.icons img:hover {
+  border-radius: 50%;
+  box-shadow: 0px 0px 40px 0px rgba(255, 255, 255, 0.67); }
+
+.squares {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-top: 5px; }
+
+.squares img {
+  max-width: 20em;
+  margin-right: 0.25em;
+  border-radius: 50px; }
+
+.squares img:last-of-type {
+  margin-right: 0px; }
+
+.squares a {
+  margin-right: 100px; }
+
+.squares a:last-of-type {
+  margin-right: 0px; }
+
+.squares img:hover {
+  box-shadow: 0px 0px 40px 0px rgba(255, 255, 255, 0.67); }
+
+a:hover {
+  text-shadow: 1px 1px 3px #ffffff; }
+
+html {
+  font-family: 'Cardo', serif; }
+
+* {
+  margin: 0;
+  padding: 0; }
+
 body {
   background-color: #6284CE;
-  overflow: hidden; }
+  overflow: scroll; }
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Montserrat', sans-serif; }
 
 .classroom {
   padding: 0 10px; }
@@ -15,5 +97,5 @@ body {
   margin-top: 40px;
   background-color: white;
   max-width: 800px;
-  font-size: 1em;
+  font-size: 1.25em;
   padding: 40px 40px; }
