@@ -23,3 +23,8 @@
 .icons img:last-of-type {
   margin-right: 0px;
 }
+
+.icons img:hover {
+  border-radius: 50%;
+  box-shadow: 0px 0px 40px 0px rgba(255, 255, 255, 0.67);
+}

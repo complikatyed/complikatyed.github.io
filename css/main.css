@@ -39,6 +39,10 @@
 .icons img:last-of-type {
   margin-right: 0px; }
 
+.icons img:hover {
+  border-radius: 50%;
+  box-shadow: 0px 0px 40px 0px rgba(255, 255, 255, 0.67); }
+
 .squares {
   display: flex;
   flex-direction: row;
@@ -48,7 +52,8 @@
 
 .squares img {
   max-width: 20em;
-  margin-right: 0.25em; }
+  margin-right: 0.25em;
+  border-radius: 50px; }
 
 .squares img:last-of-type {
   margin-right: 0px; }
@@ -58,6 +63,12 @@
 
 .squares a:last-of-type {
   margin-right: 0px; }
+
+.squares img:hover {
+  box-shadow: 0px 0px 40px 0px rgba(255, 255, 255, 0.67); }
+
+a:hover {
+  text-shadow: 1px 1px 3px #ffffff; }
 
 html {
   font-family: 'Cardo', serif; }
