@@ -39,6 +39,26 @@
 .icons img:last-of-type {
   margin-right: 0px; }
 
+.squares {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-top: 5px; }
+
+.squares img {
+  max-width: 20em;
+  margin-right: 0.25em; }
+
+.squares img:last-of-type {
+  margin-right: 0px; }
+
+.squares a {
+  margin-right: 100px; }
+
+.squares a:last-of-type {
+  margin-right: 0px; }
+
 html {
   font-family: 'Cardo', serif; }
 
@@ -48,7 +68,7 @@ html {
 
 body {
   background-color: #6284CE;
-  overflow: hidden; }
+  overflow: scroll; }
 
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Montserrat', sans-serif; }

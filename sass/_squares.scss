@@ -1,0 +1,24 @@
+.squares {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-top: 5px;
+}
+
+.squares img {
+  max-width: 20em;
+  margin-right: 0.25em;
+}
+
+.squares img:last-of-type {
+  margin-right: 0px;
+}
+
+.squares a {
+  margin-right: 100px;
+}
+
+.squares a:last-of-type {
+  margin-right: 0px;
+}

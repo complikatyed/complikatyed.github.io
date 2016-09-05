@@ -8,6 +8,7 @@
 
 @import "banner";
 @import "icons";
+@import "squares";
 
 $portfolio_blue: #6284CE;
 
@@ -22,7 +23,7 @@ html {
 body {
 
     background-color: $portfolio_blue;
-    overflow: hidden;
+    overflow: scroll;
 }
 
 h1, h2, h3, h4, h5, h6 {
