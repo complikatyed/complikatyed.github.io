@@ -1,3 +1,51 @@
 a:hover {
   text-shadow:  1px 1px 3px #ffffff;
 }
+
+.card-title {
+  height: 60px;
+}
+
+.card-image {
+  border-radius: 10px;
+}
+
+.card {
+  border-radius: 10px;
+}
+
+.contain {
+  width: 1000px;
+  margin: 0 auto;
+  height: 700px;
+  overflow: auto;
+  padding-right: 17px;
+}
+
+.project-describe {
+  padding-bottom: 20px;
+}
+
+.tech {
+  text-indent: 25px;
+}
+
+.card-reveal {
+  border-radius: 10px;
+}
+
+.search {
+  height: 100px;
+  background-color: white;
+  z-index: 3;
+  border-radius: 5px;
+}
+
+.tinyicon {
+  img {
+    max-width: 25px;
+    vertical-align: middle;
+  }
+  float: right;
+  padding-right: 20px;
+}

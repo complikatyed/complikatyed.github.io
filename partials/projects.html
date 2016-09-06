@@ -1,7 +1,38 @@
-<div class="container">
+<h1>Coding Projects</h1>
 
-  <h3>Contents are being updated.</h3>
-  <br>
-  <h4>In the meantime, please enjoy my GitHub repo: <a href="https://github.com/complikatyed">https://github.com/complikatyed</a></h4>
+<!-- What's the best way to show the possible technologies?  Icons, a list?   -->
+<!-- If I put in icons, can I do the search with clicks on the icons?   -->
 
+<div class="row">
+  <div class="col s10 offset-s1">
+    <div class="card-panel searchmodal">
+        <div class="search">
+          <div class="col s6 offset-s3 mysearch">
+            <input type="text" placeholder="Start Typing to Filter Projects By Chosen Technology" ng-model="searchText">
+          </div>
+        </div>
+
+<div class="contain ng-scope">
+  <div class="row">
+    <div class="col s4" ng-repeat="project in projects | filter: searchText" >
+      <div class="card small"">
+        <div class="card-image waves-effect waves-block waves-light">
+          <img class="activator" ng-src="{{project.img1}}">
+        </div>
+        <div class="card-content">
+          <span class="card-title activator grey-text text-darken-4">{{project.projectName}}<i class="material-icons right">more_vert</i></span>
+          <p class="project-describe"> {{project.describe}} </p>
+
+        </div>
+        <div class="card-reveal">
+          <span class="card-title grey-text text-darken-4">{{project.projectName}}<i class="material-icons right">close</i></span>
+          <p class="tinyicon"><a ng-href="{{project.repoLink}}">see the code <img src="./img/github-logo-black2.gif"/></a></p>
+          <span class="tech" ng-repeat="tech in project.techs">
+            <p>{{tech}}</p>
+          </span>
+        </div>
+      </div>
+    </div>
+  </div>
 </div>
+
