@@ -1,16 +1,18 @@
 .banner img {
   max-height: 62px;
   width: 1440px;
-  margin-bottom: -10px; }
+  margin-bottom: -10px;
+  box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.67); }
 
 .nameplate {
   background-color: white;
   color: #6284CE;
   text-align: center;
-  padding: 10px 0px; }
+  padding: 5px 0px;
+  border-bottom: 1.5px solid rgba(0, 0, 0, 0.67); }
 
 .nameplate h1 {
-  text-shadow: 1px 1px 3px #888888;
+  text-shadow: 1px 1px 3px #000000;
   margin-top: 30px;
   margin-bottom: 20px; }
 
