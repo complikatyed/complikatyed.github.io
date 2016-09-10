@@ -1,23 +1,26 @@
-var app = angular.module("KMRPortfolio", ["ngRoute"])
+var app = angular.module("KMRPortfolio", ["ngRoute"]);
 
 app.config(function($routeProvider){
+
     $routeProvider.
         when("/about", {
             templateUrl: "partials/about.html",
+            controller: "AboutCtrl"
         }).
-        when("/resume", {
+        when("/experience", {
             templateUrl: "partials/experience.html",
-            controller: "ExperienceCtrl",
-
+            controller: "ExperienceCtrl"
         }).
         when("/projects", {
             templateUrl: "partials/projects.html",
-            controller: "ProjectsCtrl",
+            controller: "ProjectsCtrl"
         }).
         when("/", {
             templateUrl: "partials/home.html",
-            controller: "HomeCtrl",
+            controller: "HomeCtrl"
         }).
 
       otherwise("/");
+
 });
+

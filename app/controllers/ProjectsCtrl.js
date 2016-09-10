@@ -1,5 +1,7 @@
 "use strict";
-app.controller("ProjectsCtrl", function($scope, $location){
+app.controller("ProjectsCtrl", function($scope, $location, $rootScope){
+
+  $scope.title = "coding projects";
 
   $scope.projects = [
 
@@ -40,10 +42,10 @@ app.controller("ProjectsCtrl", function($scope, $location){
       "projectName": "Movie History",
       "repoLink": "https://github.com/complikatyed/Movie-History",
       "describe": "Group project for NSS E3 class using OMDB API and Firebase",
-      "techs": [ "HTML", "CSS", "Sass", "Angular", "JSON", "Firebase", "Materialize" ],
+      "techs": [ "HTML", "CSS", "Sass", "Ruby", "Rails", "Firebase", "Materialize" ],
       "solo": false,
       "team": [ "Tim Maddux", "Chris Barrett" ],
-      "img1": "https://raw.githubusercontent.com/complikatyed/Movie-History/master/img/AlreadyWatchedMovies.png",
+      "img1": "https://raw.githubusercontent.com/complikatyed/Movie-History/master/img/SearchResults.png",
       "img2": "https://github.com/complikatyed/Movie-History/blob/master/img/SearchResults.png",
       "img3": "https://github.com/complikatyed/Movie-History/blob/master/img/UnwatchedMovies.png"
     },
@@ -51,10 +53,10 @@ app.controller("ProjectsCtrl", function($scope, $location){
       "projectName": "Movie History",
       "repoLink": "https://github.com/complikatyed/Movie-History",
       "describe": "Group project for NSS E3 class using OMDB API and Firebase",
-      "techs": [ "HTML", "CSS", "Sass", "Angular", "JSON", "Firebase", "Materialize" ],
+      "techs": [ "HTML", "CSS", "Sass", "Ruby", "Firebase", "Bootstrap" ],
       "solo": false,
       "team": [ "Tim Maddux", "Chris Barrett" ],
-      "img1": "https://raw.githubusercontent.com/complikatyed/Movie-History/master/img/AlreadyWatchedMovies.png",
+      "img1": "https://raw.githubusercontent.com/complikatyed/Movie-History/master/img/UnwatchedMovies.png",
       "img2": "https://github.com/complikatyed/Movie-History/blob/master/img/SearchResults.png",
       "img3": "https://github.com/complikatyed/Movie-History/blob/master/img/UnwatchedMovies.png"
     }
