@@ -11,12 +11,14 @@ a:hover {
 }
 
 .card-image {
-  border-radius: 10px;
+  border-radius: 5px;
+  border: 12px solid white;
 }
 
 .card {
-  border-radius: 10px;
+  border-radius: 5px;
 }
+
 
 .contain {
   width: 1000px;
@@ -26,25 +28,36 @@ a:hover {
   padding-right: 17px;
 }
 
-.project-describe {
-  padding-bottom: 20px;
+.card-content {
+  height: 200px;
+  overflow: auto;
 }
+
 
 .tech {
   text-indent: 25px;
+}
+
+.tech-icons {
+  background-color: white;
+  margin: 0 auto;
+
+}
+.tech-icons img {
+  max-height: 50px;
+  padding: 5px;
 }
 
 .card-reveal {
   border-radius: 10px;
 }
 
-
-
 .search {
-  height: 100px;
+  height: 70px;
   background-color: white;
   z-index: 3;
-  border-radius: 5px;
+  border-radius-bottom: 5px;
+  margin-bottom: 40px;
 }
 
 .tinyicon {
