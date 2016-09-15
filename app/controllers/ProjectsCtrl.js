@@ -29,6 +29,17 @@ app.controller("ProjectsCtrl", function($scope, $location, $rootScope){
       "img3": ""
     },
     {
+      "projectName": "Agape Ladies Class",
+      "repoLink": "https://github.com/complikatyed/AgapeLadies",
+      "describe": "Site for Agape Ladies' Sunday School class at Brentwood Baptist church.",
+      "techs": [ "HTML", "CSS/Sass", "Ruby", "Rails", "Bourbon.io", "Neat", "Bitters" ],
+      "solo": true,
+      "team": "",
+      "img1": "",
+      "img2": "",
+      "img3": ""
+    },
+    {
       "projectName": "Movie History",
       "repoLink": "https://github.com/complikatyed/Movie-History",
       "describe": "Group project for NSS E3 class using OMDB API and Firebase",
@@ -39,7 +50,6 @@ app.controller("ProjectsCtrl", function($scope, $location, $rootScope){
       "img2": "https://github.com/complikatyed/Movie-History/blob/master/img/SearchResults.png",
       "img3": "https://github.com/complikatyed/Movie-History/blob/master/img/UnwatchedMovies.png"
     },
-  
     {
       "projectName": "Tic Taco",
       "repoLink": "https://github.com/complikatyed/complikatyed.github.io",
@@ -50,6 +60,72 @@ app.controller("ProjectsCtrl", function($scope, $location, $rootScope){
       "img1": "https://raw.githubusercontent.com/complikatyed/TicTacToe/master/app/img/TicTaco1.png",
       "img2": "https://github.com/complikatyed/TicTacToe/blob/master/app/img/TicTaco2.png",
       "img3": "https://github.com/complikatyed/TicTacToe/blob/master/app/img/TicTaco3.png"
+    },
+    {
+      "projectName": "ACME Explosives",
+      "repoLink": "https://github.com/complikatyed/modern-js-development/tree/master/acme-explosives",
+      "describe": "Uses promises to call data from three json files and outputs product data based on customer's request from dropdown menu",
+      "techs": [ "HTML, CSS", "JavaScript", "JSON", "Bootstrap" ],
+      "solo": true,
+      "team": "",
+      "img1": "https://raw.githubusercontent.com/complikatyed/modern-js-development/master/images/AcmeExplosives.png",
+      "img2": "",
+      "img3": ""
+    },
+    {
+      "projectName": "Chatty",
+      "repoLink": "https://github.com/complikatyed/Chatty-group-project",
+      "describe": "",
+      "techs": [ "HTML, CSS", "JavaScript", "JSON", "Bootstrap" ],
+      "solo": false,
+      "team": [ "Bradley Guthrie", "Scott Schaffer" ],
+      "img1": "",
+      "img2": "",
+      "img3": ""
+    },
+    {
+      "projectName": "WYSIWYG JS Quiz",
+      "repoLink": "https://github.com/complikatyed/single-page-applications/tree/master/wysiwyg",
+      "describe": "JavaScript quiz using dynamic event listeners to control changes to both HTML and CSS",
+      "techs": [ "HTML, CSS", "vanilla JavaScript" ],
+      "solo": true,
+      "team": "",
+      "img1": "https://raw.githubusercontent.com/complikatyed/single-page-applications/master/images/WYSIWYG.png",
+      "img2": "",
+      "img3": ""
+    },
+    {
+      "projectName": "Gauntlet",
+      "repoLink": "https://github.com/complikatyed/gauntlet",
+      "describe": "Battle game using jQuery",
+      "techs": [ "HTML", "CSS", "jQuery" ],
+      "solo": false,
+      "team": ["David Cramb", "Sandy Jones"],
+      "img1": "",
+      "img2": "",
+      "img3": ""
+    },
+    {
+      "projectName": "Simple Calculator",
+      "repoLink": "https://github.com/complikatyed/simple-calculator-milestone-1-quiz-complikatyed",
+      "describe": "Simple calculator written in C# using Visual Studio",
+      "techs": [ "C#", "Visual Studio" ],
+      "solo": true,
+      "team": "",
+      "img1": "",
+      "img2": "",
+      "img3": ""
+    },
+    {
+      "projectName": "Portfolio 2016",
+      "repoLink": "https://github.com/complikatyed/complikatyed.github.io",
+      "describe": "Updated portfolio site using AngularJS and hosted via GitHub Pages",
+      "techs": [ "HTML", "CSS", "Sass", "Gulp", "Materialize" ],
+      "solo": true,
+      "team": "",
+      "img1": "",
+      "img2": "",
+      "img3": ""
     }
 
   ];
