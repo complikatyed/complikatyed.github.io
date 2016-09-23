@@ -83,18 +83,20 @@ a:hover {
   border: 12px solid white; }
 
 .card {
-  border-radius: 5px; }
+  border-radius: 5px;
+  height: 350px; }
 
 .contain {
   width: 1000px;
   margin: 0 auto;
-  height: 700px;
+  height: 600px;
   overflow: auto;
   padding-right: 17px; }
 
 .card-content {
-  height: 200px;
-  overflow: auto; }
+  height: 300px;
+  overflow: auto;
+  padding: 5px 20px; }
 
 .tech {
   text-indent: 25px; }
