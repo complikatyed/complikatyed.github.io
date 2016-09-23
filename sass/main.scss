@@ -31,24 +31,40 @@ h1, h2, h3, h4, h5, h6 {
   font-family: 'Montserrat', sans-serif;
 }
 
-.classroom {
-  padding: 0 10px;
+h5, h6 {
+  padding-top: 10px;
 }
-
-.classroom li {
-  list-style-type: square;
-  list-style-position: inside;
-  text-indent: -1em;
-  padding-left: 1em;
-  }
-
 .bigwhite {
   margin-top: 80px;
   background-color: white;
   max-width: 800px;
-  font-size: 1.25em;
+  font-size: 1em;
   padding: 40px 40px;
+
+  .classroom ul{
+    padding: 0 30px;
+  }
+
+  .classroom li {
+    list-style-type: square;
+  }
+
+  .classroom p {
+    padding: 10px 0;
+  }
+
+  img {
+    max-width: 300px;
+    display: block;
+    margin: 0 auto;
+  }
+
+  .deep{
+    padding-top: 25px;
+  }
 }
+
+
 
 
 
