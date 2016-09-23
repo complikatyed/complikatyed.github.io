@@ -1,23 +1,25 @@
 .banner img {
   max-height: 62px;
   width: 1440px;
-  margin-bottom: -10px; }
+  margin-bottom: -10px;
+  box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.67); }
 
 .nameplate {
   background-color: white;
   color: #6284CE;
   text-align: center;
-  padding: 10px 0px; }
+  padding: 5px 0px;
+  border-bottom: 1.5px solid rgba(0, 0, 0, 0.67); }
 
 .nameplate h1 {
-  text-shadow: 1px 1px 3px #888888;
+  text-shadow: 1px 1px 3px #000000;
   margin-top: 30px;
   margin-bottom: 20px; }
 
 .nameplate h3 {
   text-shadow: 1px 1px 3px #000000;
   margin-top: 0px;
-  margin-bottom: 30px; }
+  margin-bottom: 25px; }
 
 .icons {
   display: flex;
@@ -70,6 +72,60 @@
 a:hover {
   text-shadow: 1px 1px 3px #ffffff; }
 
+.banner-bump {
+  margin-top: 60px; }
+
+.card-title {
+  height: 60px; }
+
+.card-image {
+  border-radius: 5px;
+  border: 12px solid white; }
+
+.card {
+  border-radius: 5px;
+  height: 350px; }
+
+.contain {
+  width: 1000px;
+  margin: 0 auto;
+  height: 600px;
+  overflow: auto;
+  padding-right: 17px; }
+
+.card-content {
+  height: 300px;
+  overflow: auto;
+  padding: 5px 20px; }
+
+.tech {
+  text-indent: 25px; }
+
+.tech-icons {
+  background-color: white;
+  margin: 0 auto; }
+
+.tech-icons img {
+  max-height: 50px;
+  padding: 5px; }
+
+.card-reveal {
+  border-radius: 10px; }
+
+.search {
+  height: 70px;
+  background-color: white;
+  z-index: 3;
+  border-radius-bottom: 5px;
+  margin-bottom: 40px; }
+
+.tinyicon {
+  float: right;
+  padding-right: 20px; }
+  .tinyicon img {
+    max-width: 25px;
+    vertical-align: middle; }
+
 html {
   font-family: 'Cardo', serif; }
 
@@ -84,18 +140,24 @@ body {
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Montserrat', sans-serif; }
 
-.classroom {
-  padding: 0 10px; }
-
-.classroom li {
-  list-style-type: square;
-  list-style-position: inside;
-  text-indent: -1em;
-  padding-left: 1em; }
+h5, h6 {
+  padding-top: 10px; }
 
 .bigwhite {
-  margin-top: 40px;
+  margin-top: 80px;
   background-color: white;
   max-width: 800px;
-  font-size: 1.25em;
+  font-size: 1em;
   padding: 40px 40px; }
+  .bigwhite .classroom ul {
+    padding: 0 30px; }
+  .bigwhite .classroom li {
+    list-style-type: square; }
+  .bigwhite .classroom p {
+    padding: 10px 0; }
+  .bigwhite img {
+    max-width: 300px;
+    display: block;
+    margin: 0 auto; }
+  .bigwhite .deep {
+    padding-top: 25px; }

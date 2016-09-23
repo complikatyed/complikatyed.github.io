@@ -4,17 +4,19 @@ $portfolio_blue: #6284CE;
   max-height: 62px;
   width: 1440px;
   margin-bottom: -10px;
+    box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.67);
 }
 
 .nameplate {
-  background-color: white;
+  background-color: rgba(255,255,255, 100);
   color: $portfolio_blue;
   text-align: center;
-  padding: 10px 0px;
+  padding: 5px 0px;
+  border-bottom: 1.5px solid rgba(0, 0, 0, 0.67);
 }
 
 .nameplate h1 {
-  text-shadow: 1px 1px 3px #888888;
+  text-shadow: 1px 1px 3px #000000;
   margin-top: 30px;
   margin-bottom: 20px;
 }
@@ -22,5 +24,5 @@ $portfolio_blue: #6284CE;
 .nameplate h3 {
   text-shadow: 1px 1px 3px #000000;
   margin-top: 0px;
-  margin-bottom: 30px;
+  margin-bottom: 25px;
 }
