@@ -13,13 +13,13 @@ a:hover {
 .card-image {
   border-radius: 5px;
   border: 12px solid white;
+  height: 196px;
 }
 
 .card {
   border-radius: 5px;
-  height: 350px;
+  height: 450px;
 }
-
 
 .contain {
   width: 1000px;
@@ -30,11 +30,13 @@ a:hover {
 }
 
 .card-content {
-  height: 300px;
-  overflow: auto;
+  height: 150px;
   padding: 5px 20px;
 }
 
+.team img {
+  max-width: 20px;
+}
 
 .tech {
   text-indent: 25px;
@@ -70,3 +72,4 @@ a:hover {
   float: right;
   padding-right: 20px;
 }
+
