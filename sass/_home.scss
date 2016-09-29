@@ -38,24 +38,33 @@ $portfolio_blue: #6284CE;
 
 .part-one {
   padding-bottom: 4em;
+  @include breakpoint(phablet){
+    padding-bottom: 2em;
+  }
+  @include breakpoint(mobileonly) {
+      padding-bottom: 1em;
+  }
 }
 
 .part-two, .part-three {
   padding-bottom: 3em;
-}
-
-.spacer {
-  background-color: $portfolio_blue;
-  height: 30px;
+  @include breakpoint(phablet){
+    padding-bottom: 1em;
+  }
+  @include breakpoint(mobileonly) {
+      padding-bottom: 0;
+  }
 }
 
 .onblue {
 
   h5 {
     color: white;
-    //display: inline-block;
-    padding-top: 0;
     text-align: center;
+    padding-top: 0;
+    @include breakpoint(phablet){
+      padding-bottom: 0;
+    }
   }
 
   a {
@@ -73,6 +82,9 @@ $portfolio_blue: #6284CE;
   max-width: 17em;
   margin: 0 auto;
   display: block;
+    @include breakpoint(mobileonly) {
+      max-width: 12em;
+    }
   }
 
   a {
