@@ -87,7 +87,7 @@
 .part-one {
   padding-bottom: 4em; }
 
-.part-two {
+.part-two, .part-three {
   padding-bottom: 3em; }
 
 .spacer {
@@ -177,7 +177,7 @@ a:hover {
     vertical-align: middle; }
 
 .samebackground {
-  padding: 5em 0;
+  padding: 3em 0;
   background-color: #6284CE; }
 
 html {
