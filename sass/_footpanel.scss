@@ -1,6 +1,12 @@
 $portfolio_blue: #6284CE;
 
 .samebackground {
-  padding: 3em 0;
   background-color: $portfolio-blue;
+  padding: 3em 0;
+  @include breakpoint (phablet){
+    padding: 0;
+  }
+  @include breakpoint (mobileonly){
+    padding: 0;
+  }
 }

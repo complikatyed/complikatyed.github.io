@@ -20,11 +20,10 @@
      @media (min-width: 36em)  { @content ; }
   }
   @else if $point == mobileonly {
-     @media (max-width: 37.5em)  { @content ; }
+     @media (max-width: 35.5em)  { @content ; }
 
   }
 }
-
 
 @import "banner";
 @import "icons";
@@ -44,8 +43,8 @@ html {
 
 body {
 
-    background-color: $portfolio_blue;
-    overflow: scroll;
+  background-color: $portfolio_blue;
+  overflow: auto;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -61,36 +60,8 @@ h5, h6 {
   margin: 0 auto;
 }
 
-.bigwhite {
-  margin-top: 80px;
-  background-color: white;
-  max-width: 800px;
-  font-size: 1em;
-  padding: 40px 40px;
-
-  .classroom ul{
-    padding: 0 30px;
-  }
-
-  .classroom li {
-    list-style-type: square;
-  }
-
-  .classroom p {
-    padding: 10px 0;
-  }
-
-  img {
-    max-width: 300px;
-    display: block;
-    margin: 0 auto;
-  }
 
 
-  .deep{
-    padding-top: 25px;
-  }
-}
 
 
 
