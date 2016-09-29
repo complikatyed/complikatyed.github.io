@@ -176,6 +176,10 @@ a:hover {
     max-width: 25px;
     vertical-align: middle; }
 
+.samebackground {
+  padding: 5em 0;
+  background-color: #6284CE; }
+
 html {
   font-family: 'Numans', sans-serif; }
 
