@@ -1,0 +1,89 @@
+$portfolio_blue: #6284CE;
+
+.whitespace{
+  background-color: white;
+  margin-left: 10px;
+
+  p {
+    padding: 0.25em 0.75em;
+    font-size: 1.15em;
+    @include breakpoint(tablet){
+      font-size: 1em;
+    }
+    @include breakpoint(phablet){
+      font-size: 1em;
+    }
+  }
+
+  h5 {
+    font-size: 2em;
+    padding: 0.25em 0.75em;
+    @include breakpoint(tablet) {
+      font-size: 1.25em;
+    }
+    @include breakpoint(phablet) {
+      font-size: 1.25em;
+    }
+  }
+}
+
+.bigpicture img{
+  max-width: 100%;
+  height: auto;
+}
+
+.font-ensmallen {
+  font-size: 1em;
+}
+
+.part-one {
+  padding-bottom: 4em;
+}
+
+.part-two {
+  padding-bottom: 3em;
+}
+
+.spacer {
+  background-color: $portfolio_blue;
+  height: 30px;
+}
+
+.onblue {
+
+  h5 {
+    color: white;
+    //display: inline-block;
+    padding-top: 0;
+    text-align: center;
+  }
+
+  a {
+  color: white;
+  }
+
+  a:hover {
+  box-shadow: 0px 0px 40px 0px rgba(255, 255, 255, 0.67);
+  }
+}
+
+.home {
+
+  img {
+  max-width: 17em;
+  margin: 0 auto;
+  display: block;
+  }
+
+  a {
+  margin-right: 5em;
+  }
+
+  a:last-of-type {
+  margin-right: 0px;
+  }
+
+  a:hover {
+  box-shadow: 0px 0px 40px 0px rgba(255, 255, 255, 0.67);
+  }
+}

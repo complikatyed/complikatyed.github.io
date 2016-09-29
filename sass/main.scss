@@ -6,15 +6,35 @@
           border-radius: $radius;
 }
 
+ @mixin breakpoint($point) {
+   @if $point == desktop {
+     @media (min-width: 70em) { @content ; }
+  }
+   @else if $point == laptop {
+     @media (min-width: 64em) { @content ; }
+  }
+    @else if $point == tablet {
+     @media (min-width: 50em) { @content ; }
+  }
+   @else if $point == phablet {
+     @media (min-width: 36em)  { @content ; }
+  }
+  @else if $point == mobileonly {
+     @media (max-width: 37.5em)  { @content ; }
+
+  }
+}
+
+
 @import "banner";
 @import "icons";
-@import "squares";
+@import "home";
 @import "projects";
 
 $portfolio_blue: #6284CE;
 
 html {
-  font-family: 'Cardo', serif;
+  font-family: 'Numans', sans-serif;
 }
 
 * {
@@ -64,6 +84,7 @@ h5, h6 {
     display: block;
     margin: 0 auto;
   }
+
 
   .deep{
     padding-top: 25px;

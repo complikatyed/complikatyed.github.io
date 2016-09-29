@@ -6,14 +6,21 @@
 }
 
 .icons img {
-  margin-top: 30px;
-  margin-bottom: 30px;
-  max-width: 5em;
-  //margin-right: 100px;
+  margin-top: 1.5em;
+  margin-bottom: 1.15em;
+  max-width: 2em;
+  @include breakpoint(tablet) {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    max-width: 5em;
+  }
 }
 
 .icons a {
-  margin-right: 100px;
+  margin-right: 2em;
+  @include breakpoint(tablet) {
+    margin-right: 4em;
+  }
 }
 
 .icons a:last-of-type {
