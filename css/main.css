@@ -139,17 +139,19 @@ a:hover {
 .banner-bump {
   margin-top: 60px; }
 
-.card-title {
-  height: 60px; }
-
 .card-image {
-  border-radius: 5px;
-  border: 12px solid white;
-  height: 196px; }
+  height: 160px; }
+  .card-image img {
+    max-height: 160px; }
 
 .card {
-  border-radius: 5px;
-  height: 450px; }
+  height: 320px;
+  padding: 5px; }
+  @media (min-width: 36em) {
+    .card {
+      height: 320px; } }
+  .card .card-content {
+    padding: 10px; }
 
 .contain {
   width: 1000px;
@@ -159,14 +161,40 @@ a:hover {
   padding-right: 17px; }
 
 .card-content {
+  position: relative;
   height: 150px;
-  padding: 5px 20px; }
+  padding-top: 5px; }
+  .card-content p {
+    padding: 5px;
+    font-size: 0.85em; }
+  .card-content img {
+    position: absolute;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    right: 0;
+    bottom: 0; }
+  .card-content .card-title {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.25em; }
 
-.team img {
-  max-width: 20px; }
+.card-reveal .card-title {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.25em; }
+
+.card-reveal img {
+  margin-top: 10px; }
 
 .tech {
   text-indent: 25px; }
+
+.techreveal {
+  padding-bottom: 5px; }
+  .techreveal .tinyicon {
+    float: right;
+    padding-right: 20px; }
+    .techreveal .tinyicon img {
+      max-width: 35px;
+      vertical-align: middle; }
 
 .tech-icons {
   background-color: white;
@@ -176,22 +204,12 @@ a:hover {
   max-height: 50px;
   padding: 5px; }
 
-.card-reveal {
-  border-radius: 10px; }
-
 .search {
   height: 70px;
   background-color: white;
   z-index: 3;
   border-radius-bottom: 5px;
   margin-bottom: 40px; }
-
-.tinyicon {
-  float: right;
-  padding-right: 20px; }
-  .tinyicon img {
-    max-width: 25px;
-    vertical-align: middle; }
 
 .samebackground {
   background-color: #6284CE;
